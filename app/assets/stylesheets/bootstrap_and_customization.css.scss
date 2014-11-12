@@ -1,1 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg:   #7f8c8d;
+$navbar-height:   45px;
+$font-family-sans-serif:   'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$navbar-inverse-bg:  #bdc3c7;
+$navbar-inverse-link-color: #34495e;
+
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+.contain {
+    
+   
+    margin-right: 100px;
+    margin-left: 105px;
+}
+
+
+.navbar-brand {
+     font-weight: bold;
+     margin-right: 100px;
+
+}
+ .about, h1{
+    color: #f1c40f;
+    }
+
+    .about, p  {
+    color: brown;
+    }
+.about,container {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 1em;
+    }
+    .cont{
+        padding-top: 15px;
+   
+    padding-bottom: 2px;
+  
+    padding-left: 100px;
+          }
+
+    
+.navbar {
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+
+
+.jumbotron {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.container {
+    padding-top: 20px;
+    padding-right: 120px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+}
